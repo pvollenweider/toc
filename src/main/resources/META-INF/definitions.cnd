@@ -1,0 +1,7 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[jnt:toc] > jnt:content, jmix:siteComponent, jmix:bindedComponent
+ - heading (string, choicelist) = 'h2' indexed=no autocreated < 'h1','h2','h3','h4'
+ - depth (string, choicelist) = '1' indexed=no autocreated < '1','2','3','4'
+
