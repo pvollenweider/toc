@@ -59,8 +59,8 @@
   <name>TOC</name>
   <description>In context Table of Contents (TOC) generator</description>
   <scm>
-    <connection>scm:dummy:uri</connection>
-    <developerConnection>scm:dummy:uri</developerConnection>
+    <connection>scm:git:git@github.com:pvollenweider/toc.git</connection>
+    <developerConnection>scm:git:git@github.com:pvollenweider/toc.git</developerConnection>
   </scm>
   <properties>
     <jahia-depends>default,jquery</jahia-depends>
