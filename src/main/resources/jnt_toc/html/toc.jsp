@@ -72,4 +72,4 @@
 
 </c:choose>
 
-<ul data-toc="${toc}" data-toc-headings="${tocHeadings}"></ul>
+<ul data-toc="${toc}" data-toc-headings="${tocHeadings}" class="toc"></ul>
