@@ -111,4 +111,18 @@
     $(function () {
         toc.call($("[data-toc]"));
     });
+
+
 }(window.jQuery));
+$( document ).ready(function() {
+    if (window.location.hash) {
+        var hash = window.location.hash;
+
+        if ($(hash).length) {
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 500, 'swing');
+        }
+    }
+});
+
