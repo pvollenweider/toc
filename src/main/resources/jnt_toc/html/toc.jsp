@@ -17,7 +17,8 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
-<template:addResources type="javascript" resources="jquery.min.js,jquery.toc.js"/>
+<template:addResources type="javascript" resources="jquery.min.js"/>
+<template:addResources type="javascript" resources="jquery.toc.js" targetTag="BODY"/>
 
 <c:set var="heading" value="${currentNode.properties.heading.string}"/>
 <c:if test="${empty heading}">
